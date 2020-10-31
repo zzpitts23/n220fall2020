@@ -1,0 +1,31 @@
+.grid {
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 71px 71px 71px 71px 71px 71px 71px;
+  grid-template-rows: 71px 71px 71px 71px 71px 71px 0;
+  flex-wrap: wrap;
+  height: 432px;
+  width: 500px;
+  margin: 0 auto;
+}
+.wrapper {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+.grid div {
+  border: 1px solid black;
+  border-radius: 100%;
+  margin: 6px;
+}
+.grid .taken {
+  border: transparent;
+}
+.player-one {
+  background-color: blue;
+  border-radius: 100%;
+}
+.player-two {
+  background-color: red;
+  border-radius: 100%;
+}
