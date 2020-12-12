@@ -32,7 +32,7 @@
 <script>
 export default {
   props: [
-    'key',
+    'sKey',
     'title',
     'cardWrapperId',
     'backgroundImage',

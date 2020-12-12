@@ -6,10 +6,10 @@
     <!-- Section One -->
     <SectionCards
       id="section1"
-      key="1"
+      sKey="1"
       title="Favorite Cards"
       cardWrapperId="favCard"
-      backgroundImage="/images/section1.png"
+      backgroundImage="images/section1.png"
       backgroundAlt="Hero1"
       desc="This is my favorite cards in general"
       :cards="favCards"
@@ -18,10 +18,10 @@
     <!-- Section Two -->
     <SectionCards
       id="section2"
-      key="2"
+      sKey="2"
       title="Key Cards in Recent Deck List"
       cardWrapperId="sec2"
-      backgroundImage="/images/section2.jpg"
+      backgroundImage="images/section2.jpg"
       backgroundAlt="Hero2"
       desc=""
       :cards="zendikarRising"
