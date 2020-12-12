@@ -1,7 +1,7 @@
 <template>
   <vue-splash
     :show="show"
-    logo="/images/splash.png"
+    logo="images/splash.png"
     title="By: Zach Pitts"
     color="#d9301d"
     :size="400"
