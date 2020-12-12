@@ -23,7 +23,7 @@ export default {
   ],
 
   router: {
-    base: '/n220fall2020/dataApp/dist/',
+    base: 'n220fall2020/dataApp/dist/',
   },
 
   plugins: [
