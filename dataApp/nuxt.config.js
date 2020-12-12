@@ -22,6 +22,10 @@ export default {
     '@nuxtjs/tailwindcss',
   ],
 
+  router: {
+    base: '/n220fall2020/dataApp/dist/',
+  },
+
   plugins: [
     {
       src: '@plugins/vue-scrollmagic.js',
