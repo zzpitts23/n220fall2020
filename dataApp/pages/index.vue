@@ -23,7 +23,7 @@
       cardWrapperId="sec2"
       backgroundImage="images/section2.jpg"
       backgroundAlt="Hero2"
-      desc="These are the key cards I use in my most recent deck build!"
+      desc="These are the key cards I use in my most recent deck build!!"
       :cards="zendikarRising"
     />
   </div>
